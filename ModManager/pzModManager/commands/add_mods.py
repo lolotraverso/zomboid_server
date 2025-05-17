@@ -3,8 +3,8 @@ Command to add mods to the Project Zomboid server
 """
 import os
 from commands.base_command import BaseCommand
-from config_handler import ConfigHandler
-from mod_manager import ModManager
+from ModManager.pzModManager.config_handler import ConfigHandler
+from ModManager.pzModManager.mod_manager import ModManager
 
 class AddModsCommand(BaseCommand):
     """Command implementation for adding mods"""

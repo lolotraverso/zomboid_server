@@ -4,8 +4,8 @@ Command to list active mods on the Project Zomboid server
 import os
 from tabulate import tabulate
 from commands.base_command import BaseCommand
-from config_handler import ConfigHandler
-from mod_manager import ModManager
+from ModManager.pzModManager.config_handler import ConfigHandler
+from ModManager.pzModManager.mod_manager import ModManager
 
 class ListModsCommand(BaseCommand):
     """Command implementation for listing active mods"""

@@ -3,7 +3,7 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pzmod-manager"
+name = "pzmodmanager"
 version = "0.1.0"
 description = "Project Zomboid Server Mod Manager"
 readme = "README.md"
@@ -15,4 +15,4 @@ dependencies = [
 ]
 
 [project.scripts]
-pzmod = "pzmod_manager.main:main"
+pzmod = "pzModManager.main:main"
