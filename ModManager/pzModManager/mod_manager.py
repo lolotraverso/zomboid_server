@@ -44,7 +44,8 @@ class ModManager:
             mod_info_path = os.path.join(local_mod_dir, "mod.info")
             if os.path.exists(mod_info_path):
                 content = read_file(mod_info_path)
-                name_match = re.search(r'name=(.*?)(\r?\n|$)', content)
+                #name_match = re.search(r'name=(.*?)(\r?\n|$)', content)
+                name_match = re.search(r'name=([^\r\n]*)', content)
                 desc_match = re.search(r'description=(.*?)(\r?\n|$)', content)
                 
                 mod_info = {
