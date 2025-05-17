@@ -6,6 +6,7 @@ from tabulate import tabulate
 from pzModManager.commands.base_commands import BaseCommand
 from pzModManager.config_handler import ConfigHandler
 from pzModManager.mod_manager import ModManager
+from pzModManager.utils.file_utils import read_file
 
 class ListModsCommand(BaseCommand):
     """Command implementation for listing active mods"""
