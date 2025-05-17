@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Project Zomboid Server Mod Manager"
 readme = "README.md"
 requires-python = ">=3.7"
-license = {text = "MIT"}
+license = "MIT"
 dependencies = [
     "tabulate>=0.8.9",
     "requests>=2.25.1",
