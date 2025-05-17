@@ -5,7 +5,7 @@ import os
 import re
 import json
 import requests
-from ModManager.pzModManager.utils.file_utils import read_file
+from pzModManager.utils.file_utils import read_file
 
 class ModManager:
     """Handles operations related to Project Zomboid mods"""
