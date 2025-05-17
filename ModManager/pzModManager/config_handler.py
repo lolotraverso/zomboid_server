@@ -32,8 +32,8 @@ class ConfigHandler:
         server_config = read_file(self.server_ini)
         
         # Extract mod IDs from Mods= line
-        mods_match = re.search(r'Mods=(.*?)(\r?\n|$)', server_config)
-        workshop_match = re.search(r'WorkshopItems=(.*?)(\r?\n|$)', server_config)
+        mods_match = re.search(r'^Mods=(.*)', server_config, re.MULTILINE)
+        workshop_match = re.search(r'WorkshopItems=(.*?)(\r?\n|$)', server_config, re.MULTILINE)
         
         if mods_match:
             # Handle escaped characters in mod names properly
