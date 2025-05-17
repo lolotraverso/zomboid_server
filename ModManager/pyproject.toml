@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pzmod-manager"
+version = "0.1.0"
+description = "Project Zomboid Server Mod Manager"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+dependencies = [
+    "tabulate>=0.8.9",
+    "requests>=2.25.1",
+]
+
+[project.scripts]
+pzmod = "pzmod_manager.main:main"
