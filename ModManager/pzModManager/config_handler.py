@@ -3,7 +3,7 @@ Configuration file handler for Project Zomboid server
 """
 import os
 import re
-from utils.file_utils import read_file, write_file
+from ModManager.pzModManager.utils.file_utils import read_file, write_file
 
 class ConfigHandler:
     """Handles reading and modifying Project Zomboid server configuration files"""

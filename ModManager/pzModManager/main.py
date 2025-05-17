@@ -4,8 +4,8 @@ Project Zomboid Server Mod Manager CLI
 """
 import argparse
 import sys
-from commands.list_mods import ListModsCommand
-from commands.add_mods import AddModsCommand
+from ModManager.pzModManager.commands.list_mods import ListModsCommand
+from ModManager.pzModManager.commands.add_mods import AddModsCommand
 
 def main():
     """Main entry point for the CLI application"""
