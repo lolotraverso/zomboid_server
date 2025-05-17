@@ -1,7 +1,7 @@
 """
 Command to list active mods on the Project Zomboid server
 """
-import os
+import os, re
 from tabulate import tabulate
 from pzModManager.commands.base_commands import BaseCommand
 from pzModManager.config_handler import ConfigHandler
