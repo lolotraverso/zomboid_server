@@ -1,2 +1,5 @@
 pzUpdateManager/pz_monitor.conf
 pzUpdateManager/pz_versions.db
+pzUpdateManager/pz_steam_versions.db
+pzUpdateManager/pz_monitor.log
+pz_steam_versions.db
